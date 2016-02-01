@@ -12,6 +12,7 @@ gem 'sprockets', '2.11.0'
 
 gem 'sass-rails'
 
+gem 'will_paginate', '~> 3.1'
 # Use SCSS for stylesheets, !deleted bc of bugs!
 
 
