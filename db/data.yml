@@ -1,0 +1,129 @@
+
+---
+places:
+  columns:
+  - id
+  - name
+  - description
+  - address
+  - created_at
+  - updated_at
+  - user_id
+  records: 
+  - - '1'
+    - Jimmy's Diner
+    - Southern style diner food. Best burger and fried chicken in Williamsburg. Mmmmm
+    - 577 Union Ave, Brooklyn NY 11211
+    - '2016-01-28 18:00:46.059733'
+    - '2016-02-05 19:31:57.031952'
+    - 
+  - - '2'
+    - Bamonte's
+    - Circa 1900 neighborhood italian joint, classic red sauce and best old school
+      vibes in the city.
+    - 32 Withers St. Brooklyn NY 11211
+    - '2016-01-28 18:03:10.707888'
+    - '2016-01-28 18:03:10.707888'
+    - 
+  - - '3'
+    - Diner
+    - The original hipster mecca still serving some bomb food.
+    - 85 Broadway, Brooklyn NY
+    - '2016-01-31 03:41:45.924643'
+    - '2016-01-31 03:41:45.924643'
+    - 
+  - - '4'
+    - Donna's
+    - Small cocktail bar with tacos, yes.
+    - 85 Broadway, Brooklyn NY 11211
+    - '2016-01-31 04:00:09.473325'
+    - '2016-01-31 04:00:09.473325'
+    - 
+  - - '5'
+    - Fette Sau
+    - BBQ so good you will want to get fat.
+    - 354 Metropolitan Ave, Brooklyn NY 11211
+    - '2016-01-31 04:02:58.903821'
+    - '2016-01-31 04:02:58.903821'
+    - 
+  - - '6'
+    - The Commodore
+    - The best fried chicken and fish sandwhich,period. I'm not joking at all.
+    - 366 Metropolitan Ave, Brooklyn NY 11211
+    - '2016-01-31 04:04:50.399373'
+    - '2016-01-31 04:04:50.399373'
+    - 
+  - - '8'
+    - Zizi Limona
+    - Best Middle Eastern food I've had in New York.
+    - 129 Havemeyer Street, Brooklyn NY 11211
+    - '2016-01-31 04:18:17.476936'
+    - '2016-01-31 04:18:17.476936'
+    - 
+  - - '9'
+    - Karczma
+    - BEST polish food in Greenpoint, the lunch speciallasts me two days.
+    - 136 Greenpoint Ave, Brooklyn NY 11122
+    - '2016-01-31 04:20:13.243538'
+    - '2016-01-31 04:20:13.243538'
+    - 
+  - - '10'
+    - Peter Pan Donut and Pastry Shop
+    - Old school donut shop with a sit down counter and angry polish women yelling
+      at you. The dounuts are off the chain too, I kinda want a doughnut right now!
+    - 727 Manhattan Brooklyn NY 11222
+    - '2016-01-31 04:22:38.58886'
+    - '2016-01-31 04:22:38.58886'
+    - 
+  - - '11'
+    - Ramen Yebisu
+    - I don't go on tinder dates, but if I did I'dmake them take me there.
+    - 126 N 6th Street, Brooklyn NY 11211
+    - '2016-01-31 04:24:56.018324'
+    - '2016-01-31 04:24:56.018324'
+    - 
+  - - '12'
+    - 'M Shanghi Bistro '
+    - 'Soup dumplings!! '
+    - 292 Grand St Brooklyn, NY 11211
+    - '2016-02-02 03:42:28.123704'
+    - '2016-02-02 03:42:28.123704'
+    - 
+  - - '13'
+    - 'Milk Bar '
+    - Tasty treats, who doesn't love Birthday Balls???
+    - 382 Metropolitan Ave, Brooklyn, NY 11211
+    - '2016-02-02 18:53:02.774546'
+    - '2016-02-02 18:53:02.774546'
+    - '1'
+
+---
+users:
+  columns:
+  - id
+  - email
+  - encrypted_password
+  - reset_password_token
+  - reset_password_sent_at
+  - remember_created_at
+  - sign_in_count
+  - current_sign_in_at
+  - last_sign_in_at
+  - current_sign_in_ip
+  - last_sign_in_ip
+  - created_at
+  - updated_at
+  records: 
+  - - '1'
+    - adrianamolello@gmail.com
+    - $2a$10$a7aMuwPP2/rm3Vf3Ev9f7uDNbKYDLyUekZAJzCkfDSJ2DoWZkbL6q
+    - 16d38690797e13462c6d76b80f02a0ec98e85dd9bc6a51b1bfaebb99f81ec64c
+    - '2016-02-05 16:12:15.513077'
+    - 
+    - '2'
+    - '2016-02-02 18:49:37.970616'
+    - '2016-02-02 17:32:47.934518'
+    - 10.0.2.2
+    - 10.0.2.2
+    - '2016-02-02 17:32:47.909773'
+    - '2016-02-05 16:12:15.515054'
