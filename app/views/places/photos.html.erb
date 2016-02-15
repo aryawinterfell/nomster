@@ -1,0 +1,9 @@
+<div class="booyah-box col-xs-10 col-xs-offset-1">
+<h1>Upload a photo</h1>
+ <%= simple_form_for @place do |f| %>
+	<%= f.input :caption %>
+	<br />
+	<%= f.submit 'Create', class: 'btn btn-danger' %>
+<% end %>
+
+</div>
