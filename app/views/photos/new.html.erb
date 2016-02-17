@@ -2,6 +2,7 @@
 <h1>Upload a photo</h1>
  <%= simple_form_for @place do |f| %>
 	<%= f.input :caption %>
+	<%= f.input :picture %>
 	<br />
 	<%= f.submit 'Create', class: 'btn btn-danger' %>
 <% end %>
