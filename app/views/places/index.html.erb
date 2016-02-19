@@ -5,9 +5,17 @@
 <i><%= place.address %></i><br />
 <i><%= place.description %></i><br />
 
+
 <% if place.user.present? %>
 	<small><%= place.user.email %></small>
 	<% end %>
+
+
+ <% if place.photos.last.present? %>
+      <b><%= place.image_tag.photo.picture.last %></b> -
+    <% end %>
+  
+
 
 <% if place.comments.present? %>
 <div class="col-xs-12">
