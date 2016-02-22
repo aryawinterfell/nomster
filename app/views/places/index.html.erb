@@ -12,7 +12,7 @@
 
 
  <% if place.photos.last.present? %>
-      <b><%= place.image_tag.photo.picture.last %></b> -
+    <b><%= image_tag place.photos.last, class: 'img-responsive' %></b>
     <% end %>
   
 
