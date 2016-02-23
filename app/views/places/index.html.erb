@@ -56,10 +56,8 @@
 	<small><%= place.user.email %></small>
 <% end %>
 <br /><br />
-<div class="size">
 <% if place.photos.present?%>
-  <b><%= image_tag place.photos.first.picture, class: 'img-responsive' %></b>
-  </div>
+  <b><%= image_tag place.photos.first.picture, class: 'img-responsive', class: 'align-center' %></b>
 <% end %>
 
 

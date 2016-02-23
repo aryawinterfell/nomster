@@ -40,13 +40,14 @@ function initMap() {
   <%= link_to 'Edit', edit_place_path(@place), class: 'btn btn-danger' %>
   <%= link_to 'Destroy', place_path(@place), method: :delete, data: {confirm: 'Are you sure you want to delete this?'},class: 'btn btn-danger' %> 
   <!-- Modal -->
-<div class="modal fade" id="myPhotoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal fade" id="myPhotoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
         <h6 class="modal-title" id="myModalLabel">Add a Photo</h6>
       </div>
+      
 
  <%= simple_form_for @photo, url: place_photos_path(@place) do |f| %>
    <div class="modal-body">
